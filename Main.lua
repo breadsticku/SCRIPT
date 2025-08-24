@@ -5,7 +5,7 @@ gui.Name = "GrowGardenMessageGui"
 gui.ResetOnSpawn = false
 gui.Parent = player:WaitForChild("PlayerGui")
 
--- Background frame (rounded gray box)
+-- Background frame
 local bg = Instance.new("Frame")
 bg.Parent = gui
 bg.Size = UDim2.new(0, 800, 0, 50)
@@ -29,7 +29,7 @@ message.Font = Enum.Font.FredokaOne
 message.TextColor3 = Color3.fromRGB(255, 255, 255)
 message.TextStrokeTransparency = 0
 message.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
-message.Text = "✅ Lemon Lion infused Dazzy Eagle with citrus, granting 1826.21 EXP!"
+message.Text = "Lemon Lion infused Dazzy Eagle with citrus, granting 1826.21 EXP!"
 message.ZIndex = 10
 
 -- Optional: fade out after 3 seconds
